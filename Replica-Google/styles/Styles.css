@@ -1,0 +1,55 @@
+.lista-encabezado{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+}
+li{
+    padding: 5px;
+}
+.img-google{
+    width: 300px;
+    height: 100px;
+}
+.contenedor-imagen{
+    text-align: center;
+    margin-top: 30px;
+}
+.contenedor-buscador{
+    text-align: center;
+    margin: 0 auto;
+}
+.input-buscador{
+    width: 600px;
+    height: 25px;
+    border-radius: 20px;
+}
+.Buscar{
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    color: rgb(7, 7, 7);
+    background-color: rgb(186, 189, 189);
+    border-color: rgb(223, 230, 227);
+}
+.pie-pagina{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(211, 204, 204);
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+footer{
+    width: 100%;
+    margin: 70px;
+    position: absolute;
+    bottom: 0;
+}
+.derecha{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(211, 204, 204);
+}

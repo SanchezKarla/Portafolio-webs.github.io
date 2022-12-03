@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(143, 195, 255);
+}
+.imagen-1{
+    width:70px;
+    height:50px;
+}
+.perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.seccion-presentacion{
+    text-align: center;
+    margin-top: 100px;
+}
+.imagen-2{
+    width: 320px;
+    height: 250px;
+    border-radius: 50px;
+}
+.seccion-img{
+    text-align: center;
+    margin-top: 100px;
+}
+.conocer-1{
+    background-color: rgb(23, 24, 24);
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(217, 223, 223);
+}
+
+.columna{
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0); 
+    padding: 20px;  
+}
+.columna:hover{
+    background-color: rgb(140, 175, 250);
+    transition: all 0.2s ease;
+    color: rgb(255, 255, 255);
+}
+
+.proyectos{
+    text-align: center;
+    margin-top: 70px;
+}
+.contenedor-experiencia i{
+    font-size: 3em;
+    background-color: rgb(146, 213, 252);
+    padding: 8px 19px;
+    border-radius: 50%;
+    color: rgb(17, 106, 165);
+}
+.container{
+    margin-top: 100px;
+}
+.col-4{
+    text-align: center;
+}
+.seccion-proyectos{
+    text-align: center;
+    margin-top: 100px;
+}
+.seccion-articulos{
+    text-align: ;
+    /* Alinear al centro verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Alinear al centro Horizontalmente */
+    text-align: center;
+}
